@@ -1,0 +1,29 @@
+{
+  "name": "Enter project name",
+  "version": "0.0.0",
+  "description": "Your project here",
+  "main": "server.js",
+  "dependencies": {
+    "amqplib": "0.2.1",
+    "socket.io": "git+ssh://git@github.com:freshdesk-onboarding/socket.io.git#1.6",
+    "socket.io-emitter":"git+ssh://git@github.com:freshdesk/socket.io-emitter.git#chrome-extension",
+    "redis":"0.10.1",
+    "socket.io-redis":"git+ssh://git@github.com:freshdesk/socket.io-redis.git#chrome-extension",
+    "when": "3.4.5",
+    "commander":"",
+    "mkdirp":"",
+    "node_optimizer": "",
+    "aws-sdk":"2.0.29",
+    "moment":"2.8.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "poller",
+    "nodejs"
+  ],
+  "author": "krishnan",
+  "license": "proprietary"
+}
